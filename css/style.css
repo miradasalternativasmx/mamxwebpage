@@ -484,7 +484,8 @@ nav.main-menu {
 }
 
 .menu-area-main li.active a {
-	color: #b1b1b1;
+	color: #ffffff;
+	font-size: 22px;
 }
 
 .right_cart_section {
@@ -1088,7 +1089,9 @@ nav.main-menu {
 	border-bottom: solid #eee 1px;
 }
 
-.main-menu ul>li .sub-down li a::before {}
+.main-menu ul>li .sub-down li a::before {
+	color: #888888;
+}
 
 .main-menu ul>li .sub-down li a:hover {
 	color: #888888;
@@ -1808,8 +1811,7 @@ background: #000;
 color:#ffffff;
 font-size: 28px;
 line-height: 28px;
-margin-top: 40px;
-padding-top: 20px;
+margin-top: 20px;
 }
 
 

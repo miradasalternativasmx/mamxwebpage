@@ -15,7 +15,7 @@
 
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 
-@media only screen and (min-width: 599px) and (max-width: 767px) {
+@media only screen and (min-wimenuadth: 599px) and (max-width: 767px) {
     .logo {
         text-align: center;
     }
@@ -145,7 +145,7 @@
         line-height: 61px;
     }
     .mean-last {
-        display: none !important;
+        
     }
     .about .about-box h3 {
         font-size: 30px;
@@ -341,7 +341,9 @@ padding: 1px 0px 1px 0px;
         margin-top: 0;
     }
     .mean-last {
-        display: none;
+        font-size: 22px;
+        
+       
     }
     .head_top {
         display: none;
