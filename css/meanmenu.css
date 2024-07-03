@@ -16,7 +16,7 @@ a.meanmenu-reveal {
 }
 
 .mean-container a.meanmenu-reveal {
-     color: #fff;
+     color: #ffffff;
      cursor: pointer;
      display: block;
      font-family: 'Roboto', sans-serif;
@@ -44,7 +44,7 @@ a.meanmenu-reveal {
 }
 
 .mean-container .mean-nav {
-     background: #ffffff none repeat scroll 0 0;
+     background: #000000 none repeat scroll 0 0;
      float: left;
      margin-top: 44px;
      width: 100%;

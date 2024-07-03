@@ -46,6 +46,7 @@ html {
 }
 
 body {
+	min-height: 100%;
 	color: #000000;
 	font-size: 14px;
 	font-family: 'arimo', sans-serif;
@@ -473,7 +474,7 @@ a.readmore_bt {
 nav.main-menu {
 	float: right;
 	margin-left: 0;
-	color: #ffffff;
+	color: #0f0f0f;
 }
 
 
@@ -1776,11 +1777,16 @@ margin-top: 20px;
 	
 
 }
+.title p {
+	color: #fff;
+	text-align:left;
+	padding-left: 20px;
+}
 
 .title h2 {
 	font-size: 50px;
 	line-height: 55px;
-	color:#909090;
+	color:#ffffff;
 	font-weight: 500;
 	text-transform: uppercase;
     margin-bottom: 27px;
@@ -1802,7 +1808,8 @@ background: #000;
 color:#ffffff;
 font-size: 28px;
 line-height: 28px;
-margin-top: 20px;
+margin-top: 40px;
+padding-top: 20px;
 }
 
 

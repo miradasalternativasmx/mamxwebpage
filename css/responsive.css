@@ -200,7 +200,7 @@
         top: 50%;
         transform: translateY(-50%);
         padding: 0;
-        border: 0 aliceblue;
+        border: 0 rgb(33, 98, 156);
         bottom: 0;
     }
     .banner-main .carousel-caption h1 {
