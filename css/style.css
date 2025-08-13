@@ -83,7 +83,7 @@ h6 {
 	padding: 0 0 10px 0;
 	font-weight: normal;
 	line-height: normal;
-	color: #8a8a8a;
+	color: #ffffff;
 	margin: 0
 }
 
@@ -125,7 +125,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-	color: #a5a5a5;
+	color: #ffffff;
 	text-decoration: none!important;
 	opacity: 1
 }
@@ -480,12 +480,12 @@ nav.main-menu {
 
 .menu-area-main li:hover a,
 .menu-area-main li:focus a {
-	color: #bdbdbd;
+	color: #cbdb2a;
 }
 
 .menu-area-main li.active a {
-	color: #ffffff;
-	font-size: 22px;
+	color: #cbdb2a;
+	font-size: 18px;
 }
 
 .right_cart_section {
@@ -1064,7 +1064,7 @@ nav.main-menu {
 .main-menu ul>li a {
 	padding: 30px 23px 0 23px;
 	line-height: 20px;
-	font-size: 16px;
+	font-size: 14px;
 	display: block;
 	font-weight: 500;
 	color: #ffffff;
@@ -1675,7 +1675,7 @@ float: right;
 	color: #fff;
 }
 
-.head_top {background: #f8ca3e;
+.head_top {background: #cbdb2a;
 margin-bottom: 35px;
 }
 ul.sociel_link {
@@ -1774,7 +1774,7 @@ margin-top: 20px;
 
 
 .title {
-	text-align:left;
+	text-align:center;
 	padding-bottom: 30px;
 
 	
@@ -1787,12 +1787,12 @@ margin-top: 20px;
 }
 
 .title h2 {
-	font-size: 50px;
-	line-height: 55px;
+	font-size: 30px;
+	line-height: 40px;
 	color:#ffffff;
 	font-weight: 500;
 	text-transform: uppercase;
-    margin-bottom: 27px;
+    margin-bottom: 10px;
     position: relative;
     padding-bottom: 8px;
 }
@@ -1965,6 +1965,162 @@ margin-top: 40px;
 }
 
 /** end whyschose section **/
+/** sobremamx section **/
+
+.sobremamx {
+	background: #cbdb2a;;
+    padding-top: 0px;
+}
+
+
+.titlesobre {
+	text-align:left;
+	padding-bottom: 30px;
+
+	
+
+}
+.titlesobre p {
+	font-size: 16px;
+	color: #663366;
+	text-align:left;
+	margin-bottom: 10px;
+    position: relative;
+    padding-bottom: 8px;
+	
+}
+
+.titlesobre h2 {
+	text-align: center;
+	font-size: 25px;
+	line-height: 40px;
+	color:#fbfbfb;
+	font-weight: 500;
+	text-transform: uppercase;
+    margin-bottom: 10px;
+    position: relative;
+    padding-bottom: 8px;
+}
+.titlesobre h2:after {
+	position: relative;
+content: '';
+top: 100%;
+width: 200px;
+height: 3px;
+display: block;
+margin: 0 auto;
+background: #000;
+}
+.titlesobre h3 {
+	font-size: 20px;
+	line-height: 20px;
+	color:#000000;
+	font-weight: 500;
+	text-transform: uppercase;
+    margin-bottom: 10px;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.titlesobre span{
+color:#000000;
+font-size: 28px;
+line-height: 28px;
+margin-top: 20px;
+}
+
+
+.blacksobre {
+	font-weight: 500;
+	color:#ffffff;
+}
+
+.choose_bg {
+	background: #b2b2b2;
+}
+.tatle {
+	text-align:left;
+	
+	padding-bottom: 30px;
+	
+	background-image: url("/images/sobre_up.jpg");
+	padding:60px 60px 60px;
+	line-height:4em;
+	background-position: right 2% bottom 20%;	
+
+}
+/** pasados section **/
+
+.pasados {
+	background: #663366;;
+    padding-top: 0px;
+}
+
+
+.titlepasados {
+	text-align:left;
+	padding-bottom: 30px;
+
+	
+
+}
+.titlepasados p {
+	font-size: 16px;
+	color: #05abb4;
+	text-align:left;
+	margin-bottom: 10px;
+    position: relative;
+    padding-bottom: 8px;
+	
+}
+
+.titlepasados h2 {
+	text-align: center;
+	font-size: 25px;
+	line-height: 40px;
+	color:#cbdb2a;
+	font-weight: 500;
+	text-transform: uppercase;
+    margin-bottom: 10px;
+    position: relative;
+    padding-bottom: 8px;
+}
+.titlepasados h2:after {
+	position: relative;
+content: '';
+top: 100%;
+width: 200px;
+height: 3px;
+display: block;
+margin: 0 auto;
+background: #000;
+}
+.titlepasados h3 {
+	font-size: 20px;
+	line-height: 20px;
+	color:#cbdb2a;
+	font-weight: 500;
+	text-transform: uppercase;
+    margin-bottom: 10px;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.titlepasados span{
+color:#cbdb2a;
+font-size: 28px;
+line-height: 28px;
+margin-top: 20px;
+}
+
+
+.blackpasados {
+	font-weight: 500;
+	color:#ffffff;
+}
+
+
+
 
 
 
@@ -2009,7 +2165,7 @@ margin-top: 40px;
 
 /** product section **/
 .product {
-	background: #fff;
+	background: #05abb4;
 	padding-top: 60px;
 
 }
@@ -2046,18 +2202,17 @@ margin-top: 20px;
 }
 
 .product-bg {
-	background: url(../images/bg.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background: #000000;
+
 }
 .product-bg-white {
-	background: #ffffffbd;
+	background: #05abb4;
 	box-shadow: #00000040 0px 0px 25px 0px;
 	padding-top: 80px;
 	padding-bottom: 60px;
 }
  .product-bg .product-bg-white .product-box {
- 	background: #ddd;
+ 	background: #146a99;
  	text-align: center;
  	margin-bottom: 30px;
  	padding: 20px 25px;
@@ -2065,7 +2220,7 @@ margin-top: 20px;
  }
  .product-bg .product-bg-white .product-box i img {width: 100%;}
  .product-bg .product-bg-white .product-box:hover {
- 	background: #fdc24f;
+ 	background: #663366;
  }
 
  .product-bg .product-bg-white .product-box  h3 {
@@ -2190,8 +2345,8 @@ margin-top: 20px;
 /** footer section **/
 
 .footer {
-	background: #1b1b1b;
-    padding-top: 60px;
+	background: #000000;
+    padding-top: 10px;
 }
 ul.sociel {
 	display: flex;
@@ -2296,13 +2451,13 @@ ul.lik li a:hover {
 }
 
 .copyright {
-	background-color: #f8ca3e;
+	background-color: #000000;
 	padding: 10px 0px;
-	margin-top: 70px;
+	margin-top: 10px;
 }
 
 .copyright p {
-	color: #000000;
+	color: #ffffff;
 	font-size: 14px;
 	line-height: 22px;
 	text-align: center;
@@ -2318,7 +2473,7 @@ ul.lik li a:hover {
 ---------------------------------------------------------------------*/
 .brand_color .titlepage h2 {
 	font-weight: bold;
-	color: #ffffff;
+	color: #663366;
 	font-size: 40px !important;
 	text-transform: uppercase;
 	
@@ -2326,7 +2481,7 @@ ul.lik li a:hover {
 
 
 .brand_color {
-     background-color: #000000;
+     background-color: #05abb4;
 }
 .brand_color .titlepage {
      margin-top: 70px;
@@ -2799,7 +2954,7 @@ text-shadow: 5px 5px 5px rgb(0, 0, 0);
 
 .tz-gallery .caption p {
     font-size: 12px;
-    color: #7b7d7d;
+    color: #ffffff;
     margin: 0;
 }
 
