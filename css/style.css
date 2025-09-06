@@ -2624,7 +2624,13 @@ text-shadow: 5px 5px 5px rgb(0, 0, 0);
 
 
 
-
+/* Google form mobile */
+@media screen and (max-width:767px) {
+iframe[src*="google.com/forms"] {
+    width: 100% !important;
+    height: 800px;
+}
+}
 
 
 /** Lastestnews **/
