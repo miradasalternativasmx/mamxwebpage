@@ -474,13 +474,13 @@ a.readmore_bt {
 nav.main-menu {
 	float: right;
 	margin-left: 0;
-	color: #0f0f0f;
+	color: #4511c8;
 }
 
 
 .menu-area-main li:hover a,
 .menu-area-main li:focus a {
-	color: #cbdb2a;
+	color: #db392a;
 }
 
 .menu-area-main li.active a {
@@ -547,7 +547,7 @@ nav.main-menu {
 /*-- end header middle --*/
 
 .top-bar-info {
-	background: #989898;
+	background: #4d27d5;
 	padding: 5px 0px;
 }
 
@@ -1712,7 +1712,7 @@ border-radius: 100%;
 font-size: 18px;
 }
 .header {
-	background: #000000;
+	background: #070c9a;
 	padding-bottom: 35px;
 }
 
@@ -1768,7 +1768,7 @@ margin-top: 20px;
 /** whyschose section **/
 
 .whyschose {
-	background: #000000;
+	background: #FBFCF8;
     padding-top: 0px;
 }
 
@@ -2345,7 +2345,7 @@ margin-top: 20px;
 /** footer section **/
 
 .footer {
-	background: #000000;
+	background: #2b077d;
     padding-top: 10px;
 }
 ul.sociel {
