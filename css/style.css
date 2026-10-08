@@ -484,7 +484,7 @@ nav.main-menu {
 }
 
 .menu-area-main li.active a {
-	color: #cbdb2a;
+	color: #6DB047;
 	font-size: 18px;
 }
 
@@ -1675,7 +1675,7 @@ float: right;
 	color: #fff;
 }
 
-.head_top {background: #cbdb2a;
+.head_top {background: #6DB047;
 margin-bottom: 35px;
 }
 ul.sociel_link {
@@ -1689,7 +1689,7 @@ float: left;
 .top-box p {
 	float: right;
 	padding-top: 10px;
-    color: #000000;
+    color: #ffffff;
 
 }
 .bottom-box p {
@@ -1702,7 +1702,7 @@ ul.sociel_link li {
 }
 
 ul.sociel_link li a {
-color: #000000;
+color: #ffffffbd;
 width: 50px;
 height: 50px;
 float: left;
@@ -1712,7 +1712,7 @@ border-radius: 100%;
 font-size: 18px;
 }
 .header {
-	background: #070c9a;
+	background: #444B8B;
 	padding-bottom: 35px;
 }
 
@@ -1968,7 +1968,7 @@ margin-top: 40px;
 /** sobremamx section **/
 
 .sobremamx {
-	background: #cbdb2a;;
+	background: #6DB047;
     padding-top: 0px;
 }
 
@@ -2078,7 +2078,7 @@ margin-top: 20px;
 	text-align: center;
 	font-size: 25px;
 	line-height: 40px;
-	color:#cbdb2a;
+	color:#2A9AB1;
 	font-weight: 500;
 	text-transform: uppercase;
     margin-bottom: 10px;
@@ -2098,7 +2098,7 @@ background: #000;
 .titlepasados h3 {
 	font-size: 20px;
 	line-height: 20px;
-	color:#cbdb2a;
+	color:#6DB047;
 	font-weight: 500;
 	text-transform: uppercase;
     margin-bottom: 10px;
@@ -2107,7 +2107,7 @@ background: #000;
 }
 
 .titlepasados span{
-color:#cbdb2a;
+color:#6DB047;
 font-size: 28px;
 line-height: 28px;
 margin-top: 20px;
@@ -2345,7 +2345,7 @@ margin-top: 20px;
 /** footer section **/
 
 .footer {
-	background: #2b077d;
+	background: #444B8B;
     padding-top: 10px;
 }
 ul.sociel {
