@@ -2044,7 +2044,7 @@ margin-top: 20px;
 /** pasados section **/
 
 .pasados {
-	background: #8B6B9C;
+	background: #444B8B;
     padding-top: 0px;
 }
 
@@ -3034,4 +3034,29 @@ iframe[src*="google.com/forms"] {
 .pasados p {
     color: #ffffff !important;
     line-height: 1.6 !important; /* Aprovechamos para darle un interlineado muy cómodo */
+}
+/* Cambiar el color de la barra del menú móvil al morado del festival */
+.mean-container .mean-bar {
+    background: #ffffff !important; /* El color morado de tu sitio */
+}
+.mean-container a.meanmenu-reveal {
+    background: #394680 !important;
+    color: #394680 !important; /* Asegura que las tres líneas sean blancas */
+}
+/* Cambiar el fondo de la lista desplegable móvil a morado */
+.mean-container .mean-nav {
+    background: #394680 !important;
+}
+
+/* Cambiar el fondo de todas las opciones del menú móvil a morado */
+.mean-container .mean-nav ul li a {
+    background: #394680 !important;
+    color: #ffffff !important; /* Letras en blanco */
+}
+
+/* Cambiar el color de la opción que está activa o seleccionada (Inicio) */
+.mean-container .mean-nav ul li a.active,
+.mean-container .mean-nav ul li a:hover {
+    background: #475699 !important; /* Un morado un poquito más claro para el elemento activo */
+    color: #ffffff !important;
 }
