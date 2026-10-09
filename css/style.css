@@ -1960,7 +1960,7 @@ margin-top: 40px;
 /** sobremamx section **/
 
 .sobremamx {
-	background: #6DB047;
+	background: #FBFCF8;
     padding-top: 0px;
 }
 
@@ -2001,7 +2001,7 @@ width: 200px;
 height: 3px;
 display: block;
 margin: 0 auto;
-background: #000;
+background: #2A9AB1;
 }
 .titlesobre h3 {
 	font-size: 20px;
@@ -2044,7 +2044,7 @@ margin-top: 20px;
 /** pasados section **/
 
 .pasados {
-	background: #663366;;
+	background: #8B6B9C;
     padding-top: 0px;
 }
 
@@ -2085,7 +2085,7 @@ width: 200px;
 height: 3px;
 display: block;
 margin: 0 auto;
-background: #000;
+background: #2A9AB1;
 }
 .titlepasados h3 {
 	font-size: 20px;
@@ -2198,13 +2198,13 @@ margin-top: 20px;
 
 }
 .product-bg-white {
-	background: #05abb4;
+	background: #2A9AB1;
 	box-shadow: #00000040 0px 0px 25px 0px;
 	padding-top: 80px;
 	padding-bottom: 60px;
 }
  .product-bg .product-bg-white .product-box {
- 	background: #146a99;
+ 	background: #444B8B;
  	text-align: center;
  	margin-bottom: 30px;
  	padding: 20px 25px;
@@ -2212,7 +2212,7 @@ margin-top: 20px;
  }
  .product-bg .product-bg-white .product-box i img {width: 100%;}
  .product-bg .product-bg-white .product-box:hover {
- 	background: #663366;
+ 	background: #8B6B9C;
  }
 
  .product-bg .product-bg-white .product-box  h3 {
@@ -2473,7 +2473,7 @@ ul.lik li a:hover {
 
 
 .brand_color {
-     background-color: #05abb4;
+     background-color: #2A9AB1;
 }
 .brand_color .titlepage {
      margin-top: 70px;
@@ -2998,7 +2998,40 @@ iframe[src*="google.com/forms"] {
 .product_page h2, 
 .product_page h3 {
     text-align: left !important;
-    margin-top: 20px !important; /* También reducimos el espacio arriba de los títulos */
+    margin-top: 20px !important; También reducimos el espacio arriba de los títulos
     margin-bottom: 10px !important;
     max-width: 800px !important;
+}
+/* Corrección de color para la sección Sobre MAMX */
+.sobremamx_page p,
+.sobremamx_page h2,
+.sobremamx_page h3,
+.main-layout p,
+.main-layout h2,
+.main-layout h3 {
+    color: #000000 !important;
+}
+/* Cambiar el color de texto de APLICA AQUÍ a blanco */
+.top-box a,
+.top-box a strong,
+.top-box p strong {
+    color: #ffffff !important;
+}
+/* Color exclusivo para el título de Ediciones Pasadas */
+.titlepasados h2 {
+    color: #fffdfd !important; /* Reemplaza este código por el color que quieras */
+}
+/* Poner el título EDICIONES PASADAS en blanco */
+.titlepasados h2 {
+    color: #ffffff !important;
+}
+/* Quitar por completo la línea azul de abajo */
+.titlepasados h2::after {
+    display: none !important;
+    content: none !important;
+}
+/* Volver blancos los párrafos de la página de Ediciones Pasadas */
+.pasados p {
+    color: #ffffff !important;
+    line-height: 1.6 !important; /* Aprovechamos para darle un interlineado muy cómodo */
 }
