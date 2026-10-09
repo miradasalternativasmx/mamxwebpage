@@ -3132,3 +3132,23 @@ div[class*="col-"]:first-child .product-box img {
     height: auto !important;  /* Mantiene la proporción correcta sin deformar */
     object-fit: contain;
 }
+/* ========================================================
+   AJUSTE RECOMIENDA PARA LA BARRA VERDE EN CELULARES
+   ======================================================== */
+@media (max-width: 768px) {
+    /* Forzamos a que el contenedor verde use Flexbox para alinear sus elementos */
+    .head_top {
+        display: flex !important;
+        /* Ponemos los iconos a la izquierda y APLICA AQUÍ a la derecha */
+        justify-content: space-between !important; 
+        align-items: center !important;
+        /* Ajustamos el espacio interno para que no se pegue a las orillas del celular */
+        padding: 10px 15px !important; 
+        margin-bottom: 20px !important; /* Reducimos el margen inferior en móvil */
+    }
+
+    /* Ajuste por si el texto "APLICA AQUÍ" se ve muy grande en pantallas chicas */
+    .head_top a, .head_top span, .head_top p {
+        font-size: 14px !important;
+    }
+}
