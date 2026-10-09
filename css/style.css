@@ -2204,7 +2204,7 @@ margin-top: 20px;
 	padding-bottom: 60px;
 }
  .product-bg .product-bg-white .product-box {
- 	background: #444B8B;
+ 	background: #FBFCF8;
  	text-align: center;
  	margin-bottom: 30px;
  	padding: 20px 25px;
@@ -2443,7 +2443,7 @@ ul.lik li a:hover {
 }
 
 .copyright {
-	background-color: #000000;
+	background-color: #444B8B;
 	padding: 10px 0px;
 	margin-top: 10px;
 }
@@ -3059,4 +3059,60 @@ iframe[src*="google.com/forms"] {
 .mean-container .mean-nav ul li a:hover {
     background: #475699 !important; /* Un morado un poquito más claro para el elemento activo */
     color: #ffffff !important;
+}
+.product-box {
+    padding-top: 15px !important; /* Reduce el espacio arriba del título */
+    padding-bottom: 20px !important; /* Mantiene un espacio limpio abajo */
+}
+
+.product-box h3 {
+    margin-top: 0 !important; /* Elimina cualquier margen extra del propio título */
+    margin-bottom: 15px !important;
+}
+/* Fuerza a que todas las columnas de la fila midan lo mismo */
+.product-bg .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Hace que todos los cuadros tengan la misma altura y ancho */
+.product-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribuye el título arriba y el logo abajo */
+    align-items: center;
+    height: 100%;             /* Obliga a rellenar toda la altura de la columna */
+    min-height: 280px;        /* Define una altura fija estándar para todos */
+    background: #ffffff;
+    padding: 20px !important;
+    box-sizing: border-box;
+    text-align: center;
+}
+/* Asegura que el contenedor del enlace ocupe el espacio central y no se desborde */
+.product-box a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;           /* Define una altura máxima uniforme para la zona del logo */
+    margin-top: auto;        /* Empuja el logo firmemente hacia la parte inferior */
+    overflow: hidden;        /* Evita que cualquier elemento se salga del cuadro */
+}
+
+/* Controla de forma estricta el tamaño del contenedor intermedio <i> */
+.product-box a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Ajusta la imagen de manera proporcional sin importar si es horizontal o vertical */
+.product-box img {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: auto !important;  /* Evita que se estire a lo ancho */
+    height: auto !important; /* Evita que se estire a lo alto */
+    object-fit: contain;     /* Mantiene la proporción original del logotipo */
 }
