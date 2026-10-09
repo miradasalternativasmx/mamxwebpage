@@ -2044,7 +2044,7 @@ margin-top: 20px;
 /** pasados section **/
 
 .pasados {
-	background: #444B8B;
+	background: #FBFCF8;
     padding-top: 0px;
 }
 
@@ -3023,7 +3023,7 @@ iframe[src*="google.com/forms"] {
 }
 /* Poner el título EDICIONES PASADAS en blanco */
 .titlepasados h2 {
-    color: #ffffff !important;
+    color: #000000 !important;
 }
 /* Quitar por completo la línea azul de abajo */
 .titlepasados h2::after {
@@ -3032,7 +3032,7 @@ iframe[src*="google.com/forms"] {
 }
 /* Volver blancos los párrafos de la página de Ediciones Pasadas */
 .pasados p {
-    color: #ffffff !important;
+    color: #000000 !important;
     line-height: 1.6 !important; /* Aprovechamos para darle un interlineado muy cómodo */
 }
 /* Cambiar el color de la barra del menú móvil al morado del festival */
