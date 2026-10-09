@@ -2198,7 +2198,7 @@ margin-top: 20px;
 
 }
 .product-bg-white {
-	background: #2A9AB1;
+	background: #444B8B;
 	box-shadow: #00000040 0px 0px 25px 0px;
 	padding-top: 80px;
 	padding-bottom: 60px;
@@ -2473,7 +2473,7 @@ ul.lik li a:hover {
 
 
 .brand_color {
-     background-color: #2A9AB1;
+     background-color: #FBFCF8;
 }
 .brand_color .titlepage {
      margin-top: 70px;
@@ -3082,8 +3082,8 @@ iframe[src*="google.com/forms"] {
     justify-content: space-between; /* Distribuye el título arriba y el logo abajo */
     align-items: center;
     height: 100%;             /* Obliga a rellenar toda la altura de la columna */
-    min-height: 280px;        /* Define una altura fija estándar para todos */
-    background: #ffffff;
+    min-height: 80px;        /* Define una altura fija estándar para todos */
+    background: #444B8B;
     padding: 20px !important;
     box-sizing: border-box;
     text-align: center;
@@ -3115,4 +3115,20 @@ iframe[src*="google.com/forms"] {
     width: auto !important;  /* Evita que se estire a lo ancho */
     height: auto !important; /* Evita que se estire a lo alto */
     object-fit: contain;     /* Mantiene la proporción original del logotipo */
+}
+/* Incrementa el espacio del enlace solo para el primer bloque si es muy horizontal */
+.product-box a {
+    height: 160px; /* Ampliamos un poco el margen general para dar más aire */
+}
+
+/* Regla específica para el logo de la Secretaría de Cultura */
+div[class*="col-"]:first-child .product-box a {
+    max-height: 800px;  /* Ajuste de altura ideal para logos horizontales */
+    width: 150% !important; /* Le permitimos expandirse un poco más hacia los lados */
+}
+
+div[class*="col-"]:first-child .product-box img {
+    width: 100% !important;   /* Fuerza a la imagen a ocupar el ancho disponible */
+    height: auto !important;  /* Mantiene la proporción correcta sin deformar */
+    object-fit: contain;
 }
